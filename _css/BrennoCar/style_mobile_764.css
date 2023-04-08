@@ -11,6 +11,9 @@
     .razaosocial_nome{
         display: none;
     }
+    .juridica{
+        margin-left: 300px;
+    }
     body{
         background-position: 100%;
         height: 100px;

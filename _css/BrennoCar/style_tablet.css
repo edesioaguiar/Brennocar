@@ -20,11 +20,13 @@
         width: 50px;
     }
     .razaosocial_nome{
-        font-size: 18px;
+        margin-left: 50px;
+        font-size: 16px;
+        
     }
     .clientes, .fornecedores,
     .veiculos{
-        width: 250px;
+        width: 270px;
         margin-left: 7vh;
         font-size: 18px;
     }
