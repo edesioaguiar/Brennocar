@@ -62,21 +62,21 @@
         <form id="formulario" method="get" action=".">
             <div>
                 <label class="nome">Nome:</label><br>
-                <input type="text"  autofocus id="nome" placeholder="Primeiro nome">
+                <input type="text"  autofocus id="nome" placeholder="Primeiro nome" required>
                 <label class="nascimento">Nascimento:</label>
                 <input type="date"  id="datanascimento" placeholder="Data Nascimento"><br>
                 <label class="sobrenome">Sobrenome:</label><br>
-                <input type="text"  id="sobrenome" placeholder="Sobrenome">
+                <input type="text"  id="sobrenome" placeholder="Sobrenome" required>
                 <label class="cpf">CPF:</label>
-                <input type="text"  id="cpf" maxlength="14" placeholder="CPF" onkeypress="$(this).mask('000.000.000-00');"><br>
+                <input type="text"  id="cpf" maxlength="14" placeholder="CPF" onkeypress="$(this).mask('000.000.000-00');" required><br>
                 <label class="profissao">Profissão:</label><br>
-                <input type="text"  id="profissao" placeholder="Ocupação">
+                <input type="text"  id="profissao" placeholder="Ocupação" required>
                 <label class="telefone">Telefone:</label>
-                <input type="tel"   id="telefone" maxlength="13" placeholder="Telefone" onkeypress="$(this).mask('(00) 00000-0009')"><br>
+                <input type="tel"   id="telefone" maxlength="13" placeholder="Telefone" onkeypress="$(this).mask('(00) 00000-0009')" required><br>
                 <label class="cep">CEP:</label>
                 <input name="cep"   type="text"  id="cep" minlength="8" maxlength="8" onblur="pesquisacep(this.value);" placeholder="Digite o CEP">
                 <label class="celular">Celular:</label>
-                <input type="tel"   id="celular"  maxlength="13" placeholder="Celular" onkeypress="$(this).mask('(00) 00000-0009')"><br>
+                <input type="tel"   id="celular"  maxlength="13" placeholder="Celular" onkeypress="$(this).mask('(00) 00000-0009')" required><br>
                 <label class="endereco">Endereço:</label>
                 <input type="text"  id="endereco"  placeholder="Logradouro"><br>
                 <label class="cidade">Cidade:</label>
@@ -86,7 +86,7 @@
                 <label class="uf">UF:</label>
                 <input type="text"  id="uf" placeholder="UF"><br>
                 <label class="email">E-mail:</label>
-                <input type="email" id="email" placeholder="E-mail"><br>
+                <input type="email" id="email" placeholder="E-mail" required><br>
                 <label class="observacao">Mensagem:</label><br>
                 <textarea name="mensagem" id="observacao" cols="39" rows="5" maxlength="200" placeholder="Digite sua mensagem caso necessário."></textarea>
                 <button class="cadastro" type="submit">CADASTRAR</button>
