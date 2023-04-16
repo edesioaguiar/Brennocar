@@ -157,10 +157,13 @@
         padding: 8px 10px;
     }
     li a:hover {
-        border-radius: 10px;
+        font-weight: 600;
+        color: yellow;
+        border-radius: 5px;
         background-color: rgba(255,255,255,0.5);
     }
     .juridica{
+        cursos: pointer;
         display: flex;
         margin-left: 550px;
         margin-top: -30px;
@@ -170,7 +173,7 @@
         opacity: 0.8;
         color: #FFFFFF;
         border-radius: 10px;
-        padding: 10px;
+        padding: 5px;
     }
     .cadastro{
         width: 105px;
